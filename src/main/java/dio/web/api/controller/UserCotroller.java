@@ -33,4 +33,9 @@ public class UserCotroller {
         repository.save(user);
     }
 
+    @PutMapping()
+    public void putUser(@RequestBody User user) {
+        repository.save(user);
+    }
+
 }
